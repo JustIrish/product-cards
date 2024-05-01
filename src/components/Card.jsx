@@ -7,7 +7,7 @@ function Card() {
       <div className="img-wrap">
         <img
           className="image"
-          src="/img/shampoo.jpg"
+          src="./src/img/shampoo.jpg"
           alt="shampoo"
           width="400"
           loading="lazy"
