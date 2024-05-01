@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Plus, Minus, Search } from "lucide-react";
+import shamp from "../img/shampoo.jpg";
 
 function Card() {
   return (
@@ -7,7 +8,7 @@ function Card() {
       <div className="img-wrap">
         <img
           className="image"
-          src="./src/img/shampoo.jpg"
+          src={shamp}
           alt="shampoo"
           width="400"
           loading="lazy"
