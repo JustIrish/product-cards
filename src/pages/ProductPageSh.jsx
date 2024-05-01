@@ -6,6 +6,8 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
+import Card from "../components/Card";
+
 function ProductPageSh() {
   return (
     <div className="container">
@@ -22,6 +24,7 @@ function ProductPageSh() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+      <Card />
     </div>
   );
 }

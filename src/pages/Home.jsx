@@ -46,7 +46,9 @@ function Home() {
           </HoverCardContent>
         </HoverCard>
         <HoverCard>
-          <HoverCardTrigger>Cosmetic set Curology</HoverCardTrigger>
+          <HoverCardTrigger>
+            <NavLink to="/cosmetic">Cosmetic set Curology</NavLink>
+          </HoverCardTrigger>
           <HoverCardContent>
             <div className="hover-card-content">
               <img

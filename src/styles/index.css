@@ -170,3 +170,96 @@ text {
 .count {
   padding: 0 16px;
 }
+
+.card-cosm {
+  margin: 0 auto;
+  max-width: 1000px;
+  border: transparent;
+  border-radius: 30px;
+  margin-top: 30px;
+  background-color: #ffffff;
+}
+
+.card-cosm-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 36px;
+  margin-top: 30px;
+}
+
+.card-cosm-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card-cosm-price {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card-cosm-old-price {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card-cosm-discount {
+  font-size: 16px;
+  font-weight: 500;
+  color: #132ebc;
+}
+
+.card-cosm-select {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-cosm-count-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #e2e5f5;
+  border-radius: 8px;
+  min-width: 70px;
+  padding: 8px 15px;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.input-desc {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.input-description {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
