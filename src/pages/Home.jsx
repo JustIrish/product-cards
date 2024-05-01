@@ -13,6 +13,9 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
 
+import cosmetic from "../img/cosmetic.png";
+import shamp from "../img/shampoo.jpg";
+
 function Home() {
   return (
     <div className="container">
@@ -32,12 +35,7 @@ function Home() {
 
           <HoverCardContent>
             <div className="hover-card-content">
-              <img
-                src="src/img/shampoo.jpg"
-                alt="shampoo"
-                width="100"
-                loading="lazy"
-              />
+              <img src={shamp} alt="shampoo" width="100" loading="lazy" />
               <div className="hover-card-text">
                 <p>Moisturizing Shampoo Juicy Fruits & Warm Woods</p>
                 <p>$14.90</p>
@@ -52,7 +50,7 @@ function Home() {
           <HoverCardContent>
             <div className="hover-card-content">
               <img
-                src="src/img/cosmetic.png"
+                src={cosmetic}
                 alt="cosmetic set"
                 width="100"
                 loading="lazy"

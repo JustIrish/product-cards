@@ -3,6 +3,7 @@ import { Flex, Text, Button, IconButton, TextField } from "@radix-ui/themes";
 import { Heart, ShoppingBag, Minus, Plus, ShieldCheck } from "lucide-react";
 import CardsRadio from "./CardsRadio";
 import RadioShades from "./RadioShades";
+import cosmetic from "../img/cosmetic.png";
 
 function CardCosmetic() {
   return (
@@ -11,7 +12,7 @@ function CardCosmetic() {
         <div className="img-wrap">
           <img
             className="image"
-            src="src/img/cosmetic.png"
+            src={cosmetic}
             alt="cosmetic set"
             style={{
               display: "block",
