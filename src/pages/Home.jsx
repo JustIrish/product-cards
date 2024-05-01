@@ -33,7 +33,7 @@ function Home() {
           <HoverCardContent>
             <div className="hover-card-content">
               <img
-                src="./img/shampoo.jpg"
+                src="src/img/shampoo.jpg"
                 alt="shampoo"
                 width="100"
                 loading="lazy"
@@ -52,7 +52,7 @@ function Home() {
           <HoverCardContent>
             <div className="hover-card-content">
               <img
-                src="./img/cosmetic.png"
+                src="src/img/cosmetic.png"
                 alt="cosmetic set"
                 width="100"
                 loading="lazy"
