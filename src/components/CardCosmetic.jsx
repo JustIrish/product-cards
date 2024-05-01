@@ -11,7 +11,7 @@ function CardCosmetic() {
         <div className="img-wrap">
           <img
             className="image"
-            src="src/img/cosmetic.png"
+            src="./img/cosmetic.png"
             alt="cosmetic set"
             style={{
               display: "block",
