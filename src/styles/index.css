@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 62% 94%;
+    --foreground: 240 10% 3.9%;
+    --card: 42 87% 97%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 78 30% 74%;
+    --primary-foreground: 240 14% 13%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142.1 76.2% 36.3%;
+    --radius: 0;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 0 0% 95%;
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 142.1 70.6% 45.3%;
+    --primary-foreground: 144.9 80.4% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142.4 71.8% 29.2%;
+  }
+}
+
+@layer base {
+  * {
+    @apply yborder-border;
+  }
+  body {
+    @apply ybg-background ytext-foreground;
+  }
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("src/assets/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+
+.hover-card-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.hover-card-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hover-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.container {
+  padding: 80px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  padding: 36px;
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.image {
+  min-width: 400px;
+}
+
+.btn-pos {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+.circle-text-pos {
+  position: absolute;
+  z-index: 10;
+  right: -125px;
+  top: 449px;
+}
+
+#textPath {
+  fill: none;
+}
+
+text {
+  line-height: 1;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.card-description {
+  width: 50%;
+}
+
+.card-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  margin-bottom: 36px;
+  line-height: 1.2;
+}
+
+.price {
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+.card-text {
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+
+.card-text-last {
+  margin-bottom: 60px;
+}
+
+.text-dec {
+  color: #348413;
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.count-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #5c5b59;
+}
+
+.count {
+  padding: 0 16px;
+}
