@@ -1,6 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Interface](./src/img/home-page.jpg)
+
+## Картки товарів оформлені з використанням Shadcn UI та Radix UI
+
+![Card](./src/img/card-screen.jpg)
 
 Currently, two official plugins are available:
 
