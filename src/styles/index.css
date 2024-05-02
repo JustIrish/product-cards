@@ -239,6 +239,7 @@ text {
 }
 
 .input-wrap {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 20px;

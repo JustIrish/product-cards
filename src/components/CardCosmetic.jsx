@@ -25,7 +25,7 @@ function CardCosmetic() {
           />
           <div className="btn-pos">
             {" "}
-            <IconButton radius="full" size="3">
+            <IconButton radius="full" size="3" style={{ cursor: "pointer" }}>
               <Heart size={20} />
             </IconButton>
           </div>
@@ -53,11 +53,14 @@ function CardCosmetic() {
                 <Minus size={12} />
               </Button>
               <p className="count">00</p>
-              <Button variant="ghost" size="2">
+              <Button variant="ghost" size="2" style={{ cursor: "pointer" }}>
                 <Plus size={12} />
               </Button>
             </div>{" "}
-            <Button size="3" style={{ paddingLeft: 60, paddingRight: 60 }}>
+            <Button
+              size="3"
+              style={{ paddingLeft: 60, paddingRight: 60, cursor: "pointer" }}
+            >
               <ShoppingBag size={14} />
               Add to Cart
             </Button>
@@ -66,11 +69,26 @@ function CardCosmetic() {
             <p className="input-desc">check pin code</p>
 
             <TextField.Root
-              style={{ borderRadius: 20, paddingLeft: 8, position: "relative" }}
-              defaultValue="5555"
+              style={{
+                width: 200,
+                height: 40,
+                borderRadius: 20,
+                paddingLeft: 8,
+                fontSize: 12,
+              }}
               placeholder="Enter Pin Code"
             />
-            <Button className="input-btn" color="gray" variant="soft">
+            <Button
+              color="gray"
+              variant="soft"
+              style={{
+                position: "absolute",
+                left: 250,
+                borderRadius: 20,
+                fontSize: 12,
+                cursor: "pointer",
+              }}
+            >
               CHECK
             </Button>
           </div>
